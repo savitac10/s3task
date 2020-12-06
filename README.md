@@ -1,8 +1,5 @@
 # CodeIgniter Login and Registration Application
-
-[Video Playlist](https://www.youtube.com/playlist?list=PLmrTMUhqzS3jK7dsgLxoxywsbV9NjXj8N)
-
-[Source Code](https://goo.gl/7udsza)
+# File Upload in AWS S3 bucket
 
 # Topies
 
@@ -17,8 +14,13 @@
 * Connect User Registration Page for MySql
 * Insert User Data in MySql
 * Show Success, Warning and Danger Alert Message using CodeIgniter Flashdata Session
-* Extending CodeIgniter Validation Library To Check For Unique Values (Email and Username)
+* Extending CodeIgniter Validation Library To Check For Unique Values (Email)
 * Apply Password Hashing in Password Field
 * Activate the Login page with Database and Password Hashing
 * Create and Destroy Sessions - Log In and Log Out
-* Create User Panel with User Session
+* Create User Profile with User Session
+* Using composer install PHP SDK for AWS S3 in third party folder
+* Define S3 bucket constants in application/config/constants file and keys are AWS_REGION, AWS_S3_NAME, AWS_KEY, AWS_SECRET
+* Upload files in profile section using File upload UI
+* Insert file details in database with respect to logged in user
+* Then list the files in user profile
